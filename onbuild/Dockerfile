@@ -1,4 +1,4 @@
-FROM cloudgear/ruby:2.2
+FROM cloudgear/ruby:2.1
 MAINTAINER Georg Kunz, CloudGear <contact@cloudgear.net>
 
 # throw errors if Gemfile is newer than Gemfile.lock
