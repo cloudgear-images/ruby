@@ -1,4 +1,4 @@
 all: build
 
 build: 
-	docker build -t cloudgear/ruby:2.2-minimal .
+	docker build -t cloudgear/ruby:2.1-minimal .

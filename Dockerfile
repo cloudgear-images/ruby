@@ -2,7 +2,7 @@ FROM cloudgear/build-deps:14.04
 MAINTAINER Georg Kunz, CloudGear <contact@cloudgear.net>
 
 # Use a version available on the Brightbox repo (https://www.brightbox.com/docs/ruby/ubuntu/)
-ENV RUBY_VERSION 2.2
+ENV RUBY_VERSION 2.1
 
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys C3173AA6 && \
     echo deb http://ppa.launchpad.net/brightbox/ruby-ng/ubuntu trusty main > /etc/apt/sources.list.d/brightbox-ruby-ng-trusty.list && \
